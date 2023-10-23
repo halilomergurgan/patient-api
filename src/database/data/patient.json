@@ -1,0 +1,534 @@
+[
+  {
+    "Id" : 1,
+    "IdCard" : "002482G",
+    "Gender" : "Male",
+    "Name" : "John",
+    "Surname" : "Smith",
+    "DateOfBirth" : "1982-02-15 00:00:00",
+    "Address" : "5 St Philip Street",
+    "Postcode" : "1456",
+    "ContactNumber1" : "21334455",
+    "ContactNumber2" : "79794545",
+    "NextOfKin" : [
+      {
+        "IdCard" : "002543G",
+        "Name" : "Alvin",
+        "Surname" : "Smith",
+        "ContactNumber1" : "21334123",
+        "ContactNumber2" : "79534145"
+      },
+      {
+        "IdCard" : "002543K",
+        "Name" : "Andy",
+        "Surname" : "Smith",
+        "ContactNumber1" : "21334455",
+        "ContactNumber2" : "79794545"
+      }
+    ],
+    "Medical" : {
+      "Conditions" : [
+        {
+          "Name" : "Allergic cough",
+          "Notes" : "Cough details"
+        }
+      ],
+      "Allergies" : [
+        {
+          "Name" : "Gluten",
+          "Notes" : "Gluten details"
+        },
+        {
+          "Name" : "Shellfish",
+          "Notes" : "Allergic to shellfish"
+        }
+      ],
+      "Medication" : [
+        {
+          "Name" : "Amlodipine 5mg Tab",
+          "Notes" : "",
+          "StartDate" : "2014-06-04 00:00:00",
+          "EndDate" : "2015-10-09 00:00:00"
+        },
+        {
+          "Name" : "Diazepam",
+          "Notes" : "Diazepam details",
+          "StartDate" : "2019-06-04 00:00:00",
+          "EndDate" : "2019-08-04 00:00:00"
+        }
+      ]
+    }
+  },
+  {
+    "Id" : 2,
+    "IdCard" : "004332H",
+    "Gender" : "Male",
+    "Name" : "Paul",
+    "Surname" : "Limea",
+    "DateOfBirth" : "1985-03-16 00:00:00",
+    "Address" : "Angel  St Camille ",
+    "Postcode" : "2444",
+    "ContactNumber1" : "04321514456",
+    "ContactNumber2" : "09321514456",
+    "NextOfKin" : [
+      {
+        "Id" : 1,
+        "IdCard" : "001345T",
+        "Name" : "Fred",
+        "Surname" : "Limea",
+        "ContactNumber1" : "21295042",
+        "ContactNumber2" : "79285390"
+      },
+      {
+        "Id" : 2,
+        "IdCard" : "007628G",
+        "Name" : "Jane",
+        "Surname" : "Limea",
+        "ContactNumber1" : "21790316",
+        "ContactNumber2" : "90390645"
+      }
+    ],
+    "Medical" : {
+      "Conditions" : [
+        {
+          "Name" : "Allergic cough",
+          "Notes" : "Cough details"
+        }
+      ],
+      "Allergies" : [
+        {
+          "Name" : "Gluten",
+          "Notes" : "Gluten details"
+        },
+        {
+          "Name" : "Dairy",
+          "Notes" : "Dairy products details"
+        }
+      ],
+      "Medication" : [
+        {
+          "Name" : "Amlodipine 5mg Tab",
+          "Notes" : "",
+          "StartDate" : "2014-06-04 00:00:00",
+          "EndDate" : "2014-06-05 00:00:00"
+        }
+      ]
+    }
+  },
+  {
+    "Id" : 3,
+    "IdCard" : "004332G",
+    "Gender" : "Male",
+    "Name" : "Peter",
+    "Surname" : "Micale",
+    "DateOfBirth" : "1990-05-21 00:00:00",
+    "Address" : "5 St. Mark Street",
+    "Postcode" : "3333",
+    "ContactNumber1" : "21263464",
+    "ContactNumber2" : "91477889",
+    "NextOfKin" : [
+      {
+        "Id" : 1,
+        "IdCard" : "001345G",
+        "Name" : "Tony",
+        "Surname" : "Micale",
+        "ContactNumber1" : "21517234",
+        "ContactNumber2" : "79197451"
+      }
+    ],
+    "Medical" : {
+      "Conditions" : [
+        {
+          "Name" : "Allergic dermatitis",
+          "Notes" : "Allergic dermatitis details"
+        }
+      ],
+      "Allergies" : [
+        {
+          "Name" : "Erythromycin",
+          "Notes" : ""
+        }
+      ],
+      "Medication" : [
+        {
+          "Name" : "Lisinopril",
+          "Notes" : "For hypertension",
+          "StartDate" : "2018-07-20 00:00:00",
+          "EndDate" : null
+        },
+        {
+          "Name" : "Amlodipine 5mg Tab",
+          "Notes" : "",
+          "StartDate" : "2019-06-04 00:00:00",
+          "EndDate" : "2020-06-04 00:00:00"
+        }
+      ]
+    }
+  },
+  {
+    "Id" : 4,
+    "IdCard" : "006780G",
+    "Gender" : "Female",
+    "Name" : "Mary",
+    "Surname" : "Bore",
+    "DateOfBirth" : "1950-01-15 00:00:00",
+    "Address" : "55 St. George Street",
+    "Postcode" : "4141",
+    "ContactNumber1" : "21555789",
+    "ContactNumber2" : "80777889",
+    "NextOfKin" : [
+      {
+        "Id" : 1,
+        "IdCard" : "007496G",
+        "Name" : "Philip",
+        "Surname" : "Bore",
+        "ContactNumber1" : "21555789",
+        "ContactNumber2" : "79547234"
+      }
+    ],
+    "Medical" : {
+      "Conditions" : [
+        {
+          "Name" : "Conjucntivits",
+          "Notes" : ""
+        }
+      ],
+      "Allergies" : [
+        {
+          "Name" : "Sulphonamides",
+          "Notes" : "Sulphonamides details"
+        }
+      ],
+      "Medication" : [
+        {
+          "Name" : "Amlodipine 5mg Tab",
+          "Notes" : "",
+          "StartDate" : "2019-06-04 00:00:00",
+          "EndDate" : "2020-06-04 00:00:00"
+        }
+      ]
+    }
+  },
+  {
+    "Id" : 5,
+    "IdCard" : "002484G",
+    "Gender" : "Male",
+    "Name" : "Michael",
+    "Surname" : "Brown",
+    "DateOfBirth" : "1975-11-10 00:00:00",
+    "Address" : "7 Oak Lane",
+    "Postcode" : "6789",
+    "ContactNumber1" : "98765432",
+    "ContactNumber2" : "12345678",
+    "NextOfKin" : [
+      {
+        "IdCard" : "002545G",
+        "Name" : "Samantha",
+        "Surname" : "Brown",
+        "ContactNumber1" : "98761234",
+        "ContactNumber2" : "12347890"
+      },
+      {
+        "IdCard" : "002545K",
+        "Name" : "Matthew",
+        "Surname" : "Brown",
+        "ContactNumber1" : "98763210",
+        "ContactNumber2" : "12343210"
+      }
+    ],
+    "Medical" : {
+      "Conditions" : [
+        {
+          "Name" : "Hypertension",
+          "Notes" : "High blood pressure"
+        }
+      ],
+      "Allergies" : [
+        {
+          "Name" : "Penicillin",
+          "Notes" : "Penicillin allergy"
+        }
+      ],
+      "Medication" : [
+        {
+          "Name" : "Lisinopril",
+          "Notes" : "For hypertension",
+          "StartDate" : "2018-07-20 00:00:00",
+          "EndDate" : null
+        }
+      ]
+    }
+  },
+  {
+    "Id" : 6,
+    "IdCard" : "002482G",
+    "Gender" : "Male",
+    "Name" : "John",
+    "Surname" : "Smith",
+    "DateOfBirth" : "1982-02-15 00:00:00",
+    "Address" : "5 St Philip Street",
+    "Postcode" : "1456",
+    "ContactNumber1" : "21334455",
+    "ContactNumber2" : "79794545",
+    "NextOfKin" : [
+      {
+        "IdCard" : "002543G",
+        "Name" : "Alvin",
+        "Surname" : "Smith",
+        "ContactNumber1" : "21334123",
+        "ContactNumber2" : "79534145"
+      },
+      {
+        "IdCard" : "002543K",
+        "Name" : "Andy",
+        "Surname" : "Smith",
+        "ContactNumber1" : "21334455",
+        "ContactNumber2" : "79794545"
+      }
+    ],
+    "Medical" : {
+      "Conditions" : [
+        {
+          "Name" : "Allergic cough",
+          "Notes" : "Cough details"
+        }
+      ],
+      "Allergies" : [
+        {
+          "Name" : "Gluten",
+          "Notes" : "Gluten details"
+        }
+      ],
+      "Medication" : [
+        {
+          "Name" : "Amlodipine 5mg Tab",
+          "Notes" : "",
+          "StartDate" : "2014-06-04 00:00:00",
+          "EndDate" : null
+        },
+        {
+          "Name" : "Diazepam",
+          "Notes" : "",
+          "StartDate" : "2019-06-04 00:00:00",
+          "EndDate" : "2019-08-04 00:00:00"
+        }
+      ]
+    }
+  },
+  {
+    "Id" : 7,
+    "IdCard" : "002483G",
+    "Gender" : "Female",
+    "Name" : "Emily",
+    "Surname" : "Johnson",
+    "DateOfBirth" : "1990-05-20 00:00:00",
+    "Address" : "123 Main Street",
+    "Postcode" : "5678",
+    "ContactNumber1" : "55512345",
+    "ContactNumber2" : "77798765",
+    "NextOfKin" : [
+      {
+        "IdCard" : "002544G",
+        "Name" : "Grace",
+        "Surname" : "Johnson",
+        "ContactNumber1" : "55511122",
+        "ContactNumber2" : "77722233"
+      },
+      {
+        "IdCard" : "002544K",
+        "Name" : "Ella",
+        "Surname" : "Johnson",
+        "ContactNumber1" : "55544455",
+        "ContactNumber2" : "77755566"
+      }
+    ],
+    "Medical" : {
+      "Conditions" : [
+        {
+          "Name" : "Asthma",
+          "Notes" : "Asthma details"
+        }
+      ],
+      "Allergies" : [
+        {
+          "Name" : "Peanuts",
+          "Notes" : "Peanut allergy details"
+        },
+        {
+          "Name" : "Gluten",
+          "Notes" : "Gluten details"
+        }
+      ],
+      "Medication" : [
+        {
+          "Name" : "Ventolin",
+          "Notes" : "",
+          "StartDate" : "2015-03-10 00:00:00",
+          "EndDate" : null
+        },
+        {
+          "Name" : "Prednisone",
+          "Notes" : "Prescribed for allergies",
+          "StartDate" : "2020-02-01 00:00:00",
+          "EndDate" : "2020-03-01 00:00:00"
+        }
+      ]
+    }
+  },
+  {
+    "Id" : 8,
+    "IdCard" : "002485G",
+    "Gender" : "Female",
+    "Name" : "Sophia",
+    "Surname" : "Anderson",
+    "DateOfBirth" : "1995-03-25 00:00:00",
+    "Address" : "456 Oak Lane",
+    "Postcode" : "3456",
+    "ContactNumber1" : "55523456",
+    "ContactNumber2" : "77723456",
+    "NextOfKin" : [
+      {
+        "IdCard" : "002546G",
+        "Name" : "Liam",
+        "Surname" : "Anderson",
+        "ContactNumber1" : "55598765",
+        "ContactNumber2" : "77798765"
+      },
+      {
+        "IdCard" : "002546K",
+        "Name" : "Noah",
+        "Surname" : "Anderson",
+        "ContactNumber1" : "55512345",
+        "ContactNumber2" : "77712345"
+      }
+    ],
+    "Medical" : {
+      "Conditions" : [
+        {
+          "Name" : "Diabetes",
+          "Notes" : "Type 1 Diabetes"
+        }
+      ],
+      "Allergies" : [
+        {
+          "Name" : "Penicillin",
+          "Notes" : "Allergic to Penicillin"
+        }
+      ],
+      "Medication" : [
+        {
+          "Name" : "Insulin",
+          "Notes" : "",
+          "StartDate" : "2010-07-15 00:00:00",
+          "EndDate" : null
+        }
+      ]
+    }
+  },
+  {
+    "Id" : 9,
+    "IdCard" : "002486G",
+    "Gender" : "Male",
+    "Name" : "William",
+    "Surname" : "Wilson",
+    "DateOfBirth" : "1988-11-03 00:00:00",
+    "Address" : "789 Pine Street",
+    "Postcode" : "7890",
+    "ContactNumber1" : "55578901",
+    "ContactNumber2" : "77778901",
+    "NextOfKin" : [
+      {
+        "IdCard" : "002547G",
+        "Name" : "Charlotte",
+        "Surname" : "Wilson",
+        "ContactNumber1" : "55511223",
+        "ContactNumber2" : "77711223"
+      },
+      {
+        "IdCard" : "002547K",
+        "Name" : "Sophie",
+        "Surname" : "Wilson",
+        "ContactNumber1" : "55533445",
+        "ContactNumber2" : "77733445"
+      }
+    ],
+    "Medical" : {
+      "Conditions" : [
+        {
+          "Name" : "Hypertension",
+          "Notes" : "High blood pressure"
+        }
+      ],
+      "Allergies" : [
+        {
+          "Name" : "Shellfish",
+          "Notes" : "Allergic to shellfish"
+        }
+      ],
+      "Medication" : [
+        {
+          "Name" : "Losartan",
+          "Notes" : "",
+          "StartDate" : "2015-05-20 00:00:00",
+          "EndDate" : null
+        }
+      ]
+    }
+  },
+  {
+    "Id" : 10,
+    "IdCard" : "002532H",
+    "Gender" : "Male",
+    "Name" : "Matthew",
+    "Surname" : "Davis",
+    "DateOfBirth" : "1985-12-08 00:00:00",
+    "Address" : "789 Oak Lane",
+    "Postcode" : "3456",
+    "ContactNumber1" : "55545678",
+    "ContactNumber2" : "77745678",
+    "NextOfKin" : [
+      {
+        "IdCard" : "002598G",
+        "Name" : "Sophia",
+        "Surname" : "Davis",
+        "ContactNumber1" : "55599988",
+        "ContactNumber2" : "77799988"
+      },
+      {
+        "IdCard" : "002598K",
+        "Name" : "Mia",
+        "Surname" : "Davis",
+        "ContactNumber1" : "55533322",
+        "ContactNumber2" : "77733322"
+      }
+    ],
+    "Medical" : {
+      "Conditions" : [
+        {
+          "Name" : "Diabetes",
+          "Notes" : "Type 2"
+        }
+      ],
+      "Allergies" : [
+        {
+          "Name" : "Penicillin",
+          "Notes" : "Allergic reaction"
+        }
+      ],
+      "Medication" : [
+        {
+          "Name" : "Metformin",
+          "Notes" : "",
+          "StartDate" : "2017-08-15 00:00:00",
+          "EndDate" : null
+        },
+        {
+          "Name" : "Insulin",
+          "Notes" : "Daily injections",
+          "StartDate" : "2021-01-05 00:00:00",
+          "EndDate" : null
+        }
+      ]
+    }
+  }
+]
