@@ -1,4 +1,4 @@
-# Laravel 9 Extratik Case 
+# Laravel 9 Patient API
 Using Laravel 9, Docker, and PostgreSQL
 
 ### Requirements
